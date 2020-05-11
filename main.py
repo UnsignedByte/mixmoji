@@ -2,7 +2,7 @@
 # @Author: UnsignedByte
 # @Date:   00:57:21, 11-May-2020
 # @Last Modified by:   UnsignedByte
-# @Last Modified time: 02:01:54, 11-May-2020
+# @Last Modified time: 02:44:13, 11-May-2020
 
 from io import BytesIO
 import cairosvg
@@ -29,3 +29,5 @@ def genEmoji(base=None,mouth=None,eyes=None):
 testStr = "🏃🏻‍♀️"
 # print("\U0001f3c3\U0001f3fb\u200d\u2640\ufe0f")
 genEmoji(testStr, "\U0001f9d1\U0001f3fb").show()
+
+# 1f9d1-1f3fb-200d-1f527
